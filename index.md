@@ -1,5 +1,6 @@
 ---
 title: "My first Jekyll theme"
+layout: default
 ---
 
 # Dark mode pastel
