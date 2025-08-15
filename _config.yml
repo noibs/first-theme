@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: Dark Mode Pastel
+description: "This theme will be darkmode themed with some nice pastel colors as accents."
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
