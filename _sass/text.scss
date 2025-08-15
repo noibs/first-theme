@@ -1,0 +1,17 @@
+h1 {
+  //font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  color: #da95ff;
+
+
+  &::before {
+    content: "⁘";
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+    color: #da95ff;
+  }  
+}
+
