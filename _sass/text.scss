@@ -4,49 +4,94 @@ h1 {
   display: flex;
   align-items: center;
   color: #da95ff;
+
+  // Glow effect
+  text-shadow: 0 0 4px rgba(218, 149, 255, 0.6),
+               0 0 10px rgba(218, 149, 255, 0.4);
+
+               
+  // Chromatic Aberration effect             
+  text-shadow:
+    0.5px 0 red,
+   -0.5px 0 cyan,
+    0 0 4px rgba(255, 255, 255, 0.6);
 }
 
 h2 {
   font-size: 1.75rem;
   margin-bottom: 0.75rem;
   color: #95ffc5;
+  text-shadow: 0 0 4px rgba(149, 255, 197, 0.6),
+               0 0 10px rgba(149, 255, 197, 0.4);
+  text-shadow:
+    0.5px 0 red,
+   -0.5px 0 cyan,
+    0 0 4px rgba(255, 255, 255, 0.6);
 }
 
 h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: #ff95a2;
+  text-shadow: 0 0 4px rgba(255, 149, 162, 0.6),
+               0 0 10px rgba(255, 149, 162, 0.4);
+               text-shadow:
+    0.5px 0 red,
+   -0.5px 0 cyan,
+    0 0 4px rgba(255, 255, 255, 0.6);
 }
 
 h4 {
   font-size: 1.25rem;
   margin-bottom: 0.25rem;
   color: #ffda95;
+  text-shadow: 0 0 4px rgba(255, 218, 149, 0.6),
+               0 0 10px rgba(255, 218, 149, 0.4);
+               text-shadow:
+    0.5px 0 red,
+   -0.5px 0 cyan,
+    0 0 4px rgba(255, 255, 255, 0.6);
 }
 
 h5 {
   font-size: 1rem;
   margin-bottom: 0.25rem;
   color: #95c5ff;
+  text-shadow: 0 0 4px rgba(149, 197, 255, 0.6),
+               0 0 10px rgba(149, 197, 255, 0.4);
 }
 
 strong {
-    font-weight: bold;
-    color: #95ffc5;
+  font-weight: bold;
+  color: #95ffc5;
+  text-shadow: 0 0 4px rgba(149, 255, 197, 0.6),
+               0 0 8px rgba(149, 255, 197, 0.3);
 }
 
 em {
   font-style: italic;
   color: #ff95a2;
+  text-shadow: 0 0 4px rgba(255, 149, 162, 0.6),
+               0 0 8px rgba(255, 149, 162, 0.3);
 }
 
 a {
   color: #da95ff;
+  text-shadow: 0 0 4px rgba(218, 149, 255, 0.6),
+               0 0 8px rgba(218, 149, 255, 0.3);
+  transition: all 0.2s ease;
 
   &:hover {
     text-decoration: underline;
     font-weight: bold;
+    text-shadow: 0 0 6px rgba(218, 149, 255, 0.8),
+                 0 0 12px rgba(218, 149, 255, 0.6);
   }
 }
 
-
+.crt-text {
+  text-shadow:
+    1px 0 red,
+   -1px 0 cyan,
+    0 0 4px rgba(255, 255, 255, 0.6);
+}

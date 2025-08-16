@@ -1,32 +1,36 @@
 ol {
-    list-style: none;
-    counter-reset: item;
+  list-style: none;
+  counter-reset: item;
 
-    li {
-        counter-increment: item;
-        margin-bottom: 5px;
+  li {
+    counter-increment: item;
+    margin-bottom: 5px;
 
-        &:before {
-            margin-right: 10px;
-            content: counter(item) ". ";
-            font-weight: bold;
-            color: #62a3ff;
-            text-align: center;
-            display: inline-block;
-        }
+    &:before {
+      margin-right: 10px;
+      content: counter(item) ". ";
+      font-weight: bold;
+      color: #62a3ff;
+      text-align: center;
+      display: inline-block;
+      text-shadow: 0 0 3px rgba(98, 163, 255, 0.6),
+                   0 0 6px rgba(98, 163, 255, 0.3);
     }
+  }
 }
 
 ul {
-    list-style: none;
-    margin-bottom: 5px;
+  list-style: none;
+  margin-bottom: 5px;
 
-    li::before {
-        margin-right: 10px;
-        content: "• ";
-        font-weight: bold;
-        color: #ffda95;
-        text-align: center;
-            display: inline-block;
-    }
+  li::before {
+    margin-right: 10px;
+    content: "• ";
+    font-weight: bold;
+    color: #ffda95;
+    text-align: center;
+    display: inline-block;
+    text-shadow: 0 0 3px rgba(255, 218, 149, 0.6),
+                 0 0 6px rgba(255, 218, 149, 0.3);
+  }
 }

@@ -1,18 +1,18 @@
 ---
-title: "My first Jekyll theme"
+title: "Retro Pastel"
 layout: default
 ---
 
-# Dark mode pastel
-This theme will be darkmode themed with some nice pastel colors as accents.
-This is **bold** text. And this is *italic*.
-This is a [link](https://github.com).
+# Retro Pastel
+Retro Pastel is Jekyll theme made to resemble an old terminal with glowing pastel colors as accents.  
+
 ## Header 2
-This theme will be darkmode themed with some nice pastel colors as accents.
+This is **bold** text, this is *italic* and this is a [link](https://github.com/noibs){:target="_blank"}.
 ### Header 3
-This theme will be darkmode themed with some nice pastel colors as accents.
+It was made following the [Tonic](https://tonic.hackclub.com/){:target="_blank"} YSWS program from [Hackclub](https://ysws.hackclub.com/){:target="_blank"}.
 #### Header 4
-This theme will be darkmode themed with some nice pastel colors as accents.
+This is my first time using Jekyll.  
+Don't know what else to write so here's how lists look:
 
 1. First item
 2. Second item
